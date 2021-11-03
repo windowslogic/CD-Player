@@ -1,0 +1,25 @@
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\CDPlayer.vbproj.GenerateResource.Cache
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\CDPlayer.vbproj.ResolveComReference.cache
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\bin\Debug\Interop.WMPLib.dll
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\CD_Player.Resources.resources
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\CD_Player.Prefs.resources
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\CD_Player.Restore.resources
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\CD_Player.About.resources
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\CD_Player.UpdateLog.resources
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\bin\Debug\WLP Media Player.exe.config
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\bin\Debug\WLP Media Player.exe.manifest
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\bin\Debug\WLP Media Player.application
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\bin\Debug\WLP Media Player.exe
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\bin\Debug\WLP Media Player.pdb
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\bin\Debug\WLP Media Player.xml
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\CD_Player.Chooser.resources
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\CD_Player.CDPlayer.resources
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\WLP Media Player.exe.manifest
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\WLP Media Player.application
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\WLP Media Player.exe
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\WLP Media Player.xml
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\WLP Media Player.pdb
+C:\Users\Tim\Dropbox\Projects\CDPlayer\CDPlayer\obj\x86\Debug\CD_Player.MediaPlayer.resources
