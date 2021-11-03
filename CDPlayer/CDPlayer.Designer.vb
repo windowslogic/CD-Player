@@ -76,7 +76,7 @@ Partial Class CDPlayer
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'OptionsToolStripMenuItem
@@ -89,7 +89,7 @@ Partial Class CDPlayer
         'PreferencesToolStripMenuItem
         '
         Me.PreferencesToolStripMenuItem.Name = "PreferencesToolStripMenuItem"
-        Me.PreferencesToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.PreferencesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PreferencesToolStripMenuItem.Text = "Preferences"
         '
         'HelpToolStripMenuItem
@@ -102,7 +102,7 @@ Partial Class CDPlayer
         'AboutCDPlayer20ToolStripMenuItem
         '
         Me.AboutCDPlayer20ToolStripMenuItem.Name = "AboutCDPlayer20ToolStripMenuItem"
-        Me.AboutCDPlayer20ToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.AboutCDPlayer20ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AboutCDPlayer20ToolStripMenuItem.Text = "About"
         '
         'TrackS
@@ -290,7 +290,7 @@ Partial Class CDPlayer
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(26, 23)
         Me.Button1.TabIndex = 1
-        Me.ToolTip1.SetToolTip(Me.Button1, "Stop" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Stops the CD. When on a track other than 1, you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "can use the stop button" & _
+        Me.ToolTip1.SetToolTip(Me.Button1, "Stop" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Stops the CD. When on a track other than 1, you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "can use the stop button" &
         " to restart the CD or click " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "twice to stop the CD fully.")
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -323,7 +323,7 @@ Partial Class CDPlayer
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
         Me.Name = "CDPlayer"
-        Me.Text = "WLP Media Suite - CD Player"
+        Me.Text = "CD Player"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()

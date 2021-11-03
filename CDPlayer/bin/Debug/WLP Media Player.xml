@@ -2,54 +2,64 @@
 <doc>
 <assembly>
 <name>
-WLPMediaPlayer
+WLP Media Player
 </name>
 </assembly>
 <members>
+<member name="T:CD_Player.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
 <member name="P:CD_Player.My.Resources.Resources.ResourceManager">
-	<summary>
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:CD_Player.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:CD_Player.My.Resources.Resources._Stop">
-	<summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources._Stop">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:CD_Player.My.Resources.Resources.Eject">
-	<summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources.Eject">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:CD_Player.My.Resources.Resources.Mute">
-	<summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources.Mute">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:CD_Player.My.Resources.Resources.NextTrack">
-	<summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources.NextTrack">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:CD_Player.My.Resources.Resources.Pause">
-	<summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources.Pause">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:CD_Player.My.Resources.Resources.Play">
-	<summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources.Play">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:CD_Player.My.Resources.Resources.PreviousTrack">
-	<summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources.PreviousTrack">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:CD_Player.My.Resources.Resources.Unmute">
-	<summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources.Unmute">
+<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="T:CD_Player.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>

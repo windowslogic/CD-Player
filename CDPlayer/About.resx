@@ -118,14 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Label2.Text" xml:space="preserve">
-    <value>Originally CD Player
-
-Version: 4.0.0.0
-© 2015 WindowsLogic Productions
+    <value>Version: 4.0.0.0
+Copyright © 2015 - 2021 WindowsLogic Productions
 
 The WLP Media Suite name, associated 
 trademarks and logos and the "CD" logo are trademarks
-of WLP Media Suite or related entities.
+of CD Player or related entities.
 
 Warning: This program is protected by copyright law 
 and international treaties. Unauthorised reproduction

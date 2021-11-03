@@ -87,6 +87,7 @@
     End Sub
 
     Private Sub NumericUpDown1_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NumericUpDown1.ValueChanged
+        'Hell insues...
         If NumericUpDown1.Value = 0 Then
             Timer2.Stop()
             MillisecondsS.Text = "00"
@@ -321,7 +322,7 @@
     End Sub
 
     Private Sub AboutCDPlayer20ToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutCDPlayer20ToolStripMenuItem.Click
-        About.Show()
+        About.ShowDialog()
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
