@@ -30,7 +30,7 @@ Partial Class UpdateLog
         '
         Me.ListBox1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"~.4.0.0.0.~", "", "1. Changed name to WLP Media Suite", "2. Added a media player.", "3. Added a chooser.", "4. Added dark mode option.", "5. Redesigned entire application.", "", "~.3.0.0.0.~", "", "1. Changed track number and time colour.", "2. Updated icon to a more updated design.", "3. Added controls to the widget, these controls are, Play, Pause, Stop, Skip Back" & _
+        Me.ListBox1.Items.AddRange(New Object() {"~Version 3.1.0.0~", "1. Fixed bugs.", "", "~.3.0.0.0.~", "", "1. Changed track number and time colour.", "2. Updated icon to a more updated design.", "3. Added controls to the widget, these controls are, Play, Pause, Stop, Skip Back" &
                 " and Skip Forward.", "4. Added this update log.", "5. Removed useless controls from the preferences window."})
         Me.ListBox1.Location = New System.Drawing.Point(12, 12)
         Me.ListBox1.Name = "ListBox1"

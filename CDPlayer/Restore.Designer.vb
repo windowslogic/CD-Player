@@ -24,12 +24,12 @@ Partial Class Restore
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Restore))
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.NormalButton = New System.Windows.Forms.Button()
+        Me.PauseButton = New System.Windows.Forms.Button()
+        Me.FTrackButton = New System.Windows.Forms.Button()
+        Me.PTrackButton = New System.Windows.Forms.Button()
+        Me.StopButton = New System.Windows.Forms.Button()
+        Me.PlayButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -41,77 +41,77 @@ Partial Class Restore
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "CD Player is currently open or playing a CD."
         '
-        'Button1
+        'NormalButton
         '
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(12, 19)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(239, 23)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Normal Player"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.NormalButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.NormalButton.Location = New System.Drawing.Point(12, 19)
+        Me.NormalButton.Name = "NormalButton"
+        Me.NormalButton.Size = New System.Drawing.Size(239, 23)
+        Me.NormalButton.TabIndex = 1
+        Me.NormalButton.Text = "Normal Player"
+        Me.NormalButton.UseVisualStyleBackColor = True
         '
-        'Button6
+        'PauseButton
         '
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Image = Global.CD_Player.My.Resources.Resources.Pause
-        Me.Button6.Location = New System.Drawing.Point(58, 48)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(47, 23)
-        Me.Button6.TabIndex = 6
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.PauseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PauseButton.Image = Global.CD_Player.My.Resources.Resources.Pause
+        Me.PauseButton.Location = New System.Drawing.Point(58, 48)
+        Me.PauseButton.Name = "PauseButton"
+        Me.PauseButton.Size = New System.Drawing.Size(47, 23)
+        Me.PauseButton.TabIndex = 6
+        Me.PauseButton.UseVisualStyleBackColor = True
         '
-        'Button5
+        'FTrackButton
         '
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Image = Global.CD_Player.My.Resources.Resources.NextTrack
-        Me.Button5.Location = New System.Drawing.Point(204, 48)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(47, 23)
-        Me.Button5.TabIndex = 5
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.FTrackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.FTrackButton.Image = Global.CD_Player.My.Resources.Resources.NextTrack
+        Me.FTrackButton.Location = New System.Drawing.Point(204, 48)
+        Me.FTrackButton.Name = "FTrackButton"
+        Me.FTrackButton.Size = New System.Drawing.Size(47, 23)
+        Me.FTrackButton.TabIndex = 5
+        Me.FTrackButton.UseVisualStyleBackColor = True
         '
-        'Button4
+        'PTrackButton
         '
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Image = Global.CD_Player.My.Resources.Resources.PreviousTrack
-        Me.Button4.Location = New System.Drawing.Point(158, 48)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(47, 23)
-        Me.Button4.TabIndex = 4
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.PTrackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PTrackButton.Image = Global.CD_Player.My.Resources.Resources.PreviousTrack
+        Me.PTrackButton.Location = New System.Drawing.Point(158, 48)
+        Me.PTrackButton.Name = "PTrackButton"
+        Me.PTrackButton.Size = New System.Drawing.Size(47, 23)
+        Me.PTrackButton.TabIndex = 4
+        Me.PTrackButton.UseVisualStyleBackColor = True
         '
-        'Button3
+        'StopButton
         '
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Image = Global.CD_Player.My.Resources.Resources._Stop
-        Me.Button3.Location = New System.Drawing.Point(108, 48)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(47, 23)
-        Me.Button3.TabIndex = 3
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.StopButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.StopButton.Image = Global.CD_Player.My.Resources.Resources._Stop
+        Me.StopButton.Location = New System.Drawing.Point(108, 48)
+        Me.StopButton.Name = "StopButton"
+        Me.StopButton.Size = New System.Drawing.Size(47, 23)
+        Me.StopButton.TabIndex = 3
+        Me.StopButton.UseVisualStyleBackColor = True
         '
-        'Button2
+        'PlayButton
         '
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Image = Global.CD_Player.My.Resources.Resources.Play
-        Me.Button2.Location = New System.Drawing.Point(12, 48)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(47, 23)
-        Me.Button2.TabIndex = 2
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.PlayButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PlayButton.Image = Global.CD_Player.My.Resources.Resources.Play
+        Me.PlayButton.Location = New System.Drawing.Point(12, 48)
+        Me.PlayButton.Name = "PlayButton"
+        Me.PlayButton.Size = New System.Drawing.Size(47, 23)
+        Me.PlayButton.TabIndex = 2
+        Me.PlayButton.UseVisualStyleBackColor = True
         '
         'Restore
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(263, 78)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.PauseButton)
+        Me.Controls.Add(Me.FTrackButton)
+        Me.Controls.Add(Me.PTrackButton)
+        Me.Controls.Add(Me.StopButton)
+        Me.Controls.Add(Me.PlayButton)
+        Me.Controls.Add(Me.NormalButton)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -120,16 +120,16 @@ Partial Class Restore
         Me.MinimizeBox = False
         Me.Name = "Restore"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "WLP Media Suite - Compact CD Player"
+        Me.Text = "Compact CD Player"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents Button6 As System.Windows.Forms.Button
+    Friend WithEvents NormalButton As System.Windows.Forms.Button
+    Friend WithEvents PlayButton As System.Windows.Forms.Button
+    Friend WithEvents StopButton As System.Windows.Forms.Button
+    Friend WithEvents PTrackButton As System.Windows.Forms.Button
+    Friend WithEvents FTrackButton As System.Windows.Forms.Button
+    Friend WithEvents PauseButton As System.Windows.Forms.Button
 End Class

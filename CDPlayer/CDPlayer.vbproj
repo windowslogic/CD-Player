@@ -116,23 +116,11 @@
     <Compile Include="About.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chooser.Designer.vb">
-      <DependentUpon>Chooser.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Chooser.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="CDPlayer.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CDPlayer.Designer.vb">
       <DependentUpon>CDPlayer.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MediaPlayer.Designer.vb">
-      <DependentUpon>MediaPlayer.vb</DependentUpon>
-    </Compile>
-    <Compile Include="MediaPlayer.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -173,14 +161,8 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chooser.resx">
-      <DependentUpon>Chooser.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CDPlayer.resx">
       <DependentUpon>CDPlayer.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MediaPlayer.resx">
-      <DependentUpon>MediaPlayer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

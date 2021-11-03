@@ -12,12 +12,12 @@
     Dim trackCount As Integer
     Dim currentTrack As Integer
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NormalButton.Click
         CDPlayer.Show()
         Me.Close()
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PlayButton.Click
         retVal = mciSendString("play cd", vbNullString, 0, 0) 'Tell the system to play the CD.
         CDPlayer.CDStatus.Text = "CD Status: Playing"
         Form1_Load(Nothing, Nothing)
@@ -32,13 +32,13 @@
         retVal = mciSendString("set cd time format tmsf", vbNullString, 0, 0) 'This will set it so the tracks are recognized as 1 2 3 4...
         retVal = mciSendString("status cd number of tracks", buf, 128, 0) 'Get Num. Of Tracks
         retVal = mciSendString("status cd current track", buf2, 128, 0) 'Get Current Track
-        trackCount = CInt(Val(buf)) 'This Will Get the Number Of Tracks (Convert it Into 1 2 3 4...)
-        currentTrack = CInt(Val(buf2)) 'This Will get the Current Track (Convert it Into 1 2 3 4...)
+        trackCount = CInt(Val(buf)) 'This will Get the Number Of Tracks (Convert it Into 1 2 3 4...)
+        currentTrack = CInt(Val(buf2)) 'This will get the Current Track (Convert it Into 1 2 3 4...)
         CDPlayer.TrackS.Text = "[" & currentTrack & "/" & trackCount & "]"
         CDPlayer.NumericUpDown1.Maximum = trackCount + 1
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles StopButton.Click
         retVal = mciSendString("stop cd", vbNullString, 0, 0) 'Tell the system to stop the CD.
         CDPlayer.Timer2.Stop()
         CDPlayer.MillisecondsS.Text = "00"
@@ -47,15 +47,15 @@
         CDPlayer.CDStatus.Text = "CD Status: Stopped"
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PTrackButton.Click
         CDPlayer.NumericUpDown1.DownButton()
     End Sub
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FTrackButton.Click
         CDPlayer.NumericUpDown1.UpButton()
     End Sub
 
-    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PauseButton.Click
         retVal = mciSendString("pause cd", vbNullString, 0, 0) 'Tell the system to pause the CD.
         CDPlayer.Timer2.Stop()
         CDPlayer.CDStatus.Text = "CD Status: Paused"
