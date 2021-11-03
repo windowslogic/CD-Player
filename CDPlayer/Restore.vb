@@ -19,7 +19,7 @@
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         retVal = mciSendString("play cd", vbNullString, 0, 0) 'Tell the system to play the CD.
-        CDPlayer.Label4.Text = "CD Status: Playing"
+        CDPlayer.CDStatus.Text = "CD Status: Playing"
         Form1_Load(Nothing, Nothing)
         CDPlayer.Timer2.Start()
     End Sub
@@ -44,7 +44,7 @@
         CDPlayer.MillisecondsS.Text = "00"
         CDPlayer.SecondsS.Text = "00"
         CDPlayer.MinutesS.Text = "00"
-        CDPlayer.Label4.Text = "CD Status: Stopped"
+        CDPlayer.CDStatus.Text = "CD Status: Stopped"
     End Sub
 
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
@@ -58,6 +58,6 @@
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
         retVal = mciSendString("pause cd", vbNullString, 0, 0) 'Tell the system to pause the CD.
         CDPlayer.Timer2.Stop()
-        CDPlayer.Label4.Text = "CD Status: Paused"
+        CDPlayer.CDStatus.Text = "CD Status: Paused"
     End Sub
 End Class

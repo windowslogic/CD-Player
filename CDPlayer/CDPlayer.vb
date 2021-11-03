@@ -40,26 +40,26 @@
         End If
     End Sub
 
-    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PlayButton.Click
         retVal = mciSendString("play cd", vbNullString, 0, 0) 'Tell the system to play the CD.
-        Label4.Text = "CD Status: Playing"
+        CDStatus.Text = "CD Status: Playing"
         Form1_Load(Nothing, Nothing)
         Timer2.Start()
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles StopButton.Click
         retVal = mciSendString("stop cd", vbNullString, 0, 0) 'Tell the system to stop the CD.
         Timer2.Stop()
         MillisecondsS.Text = "00"
         SecondsS.Text = "00"
         MinutesS.Text = "00"
-        Label4.Text = "CD Status: Stopped"
+        CDStatus.Text = "CD Status: Stopped"
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PauseButton.Click
         retVal = mciSendString("pause cd", vbNullString, 0, 0) 'Tell the system to pause the CD.
         Timer2.Stop()
-        Label4.Text = "CD Status: Paused"
+        CDStatus.Text = "CD Status: Paused"
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
@@ -69,20 +69,21 @@
         NumericUpDown1.Value = currentTrack
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles EjectButton.Click
+        'Opens the CD/DVD drive door.
         retVal = mciSendString("set cd door open", vbNullString, 0, 0)
         Timer2.Stop()
         MillisecondsS.Text = "00"
         SecondsS.Text = "00"
         MinutesS.Text = "00"
-        Label4.Text = "CDStatus: Please Insert CD"
+        CDStatus.Text = "CDStatus: Please Insert CD"
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FTrackButton.Click
         NumericUpDown1.UpButton()
     End Sub
 
-    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PTrackButton.Click
         NumericUpDown1.DownButton()
     End Sub
 
@@ -296,7 +297,7 @@
         retVal = mciSendString("set cd time format tmsf", vbNullString, 0, 0) 'Sets it into 1 2 3 4...
         retVal = mciSendString("seek cd to " & NumericUpDown1.Value, vbNullString, 0, 0) 'Seeks CD to track number inputed.
         If retVal = mciSendString("play cd", vbNullString, 0, 0) Then 'Tell the system to play the CD.
-            Label4.Text = "CD Status: Awaiting Input"
+            CDStatus.Text = "CD Status: Awaiting Input"
         End If
     End Sub
 
@@ -304,7 +305,7 @@
         Prefs.Show()
     End Sub
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CompactButton.Click
         Me.Hide()
         Restore.Show()
     End Sub

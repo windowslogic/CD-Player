@@ -32,12 +32,12 @@ Partial Class CDPlayer
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutCDPlayer20ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TrackS = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.ScreenBack = New System.Windows.Forms.Label()
         Me.MillisecondsS = New System.Windows.Forms.Label()
         Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.CDStatus = New System.Windows.Forms.Label()
+        Me.CompactButton = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.SecondsS = New System.Windows.Forms.Label()
         Me.MinutesS = New System.Windows.Forms.Label()
@@ -45,12 +45,12 @@ Partial Class CDPlayer
         Me.Colon1S = New System.Windows.Forms.Label()
         Me.Colon2S = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.PlayButton = New System.Windows.Forms.Button()
+        Me.PTrackButton = New System.Windows.Forms.Button()
+        Me.FTrackButton = New System.Windows.Forms.Button()
+        Me.EjectButton = New System.Windows.Forms.Button()
+        Me.PauseButton = New System.Windows.Forms.Button()
+        Me.StopButton = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -116,13 +116,13 @@ Partial Class CDPlayer
         Me.TrackS.TabIndex = 9
         Me.TrackS.Text = "[00/00]"
         '
-        'Label2
+        'ScreenBack
         '
-        Me.Label2.BackColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(12, 26)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(128, 45)
-        Me.Label2.TabIndex = 10
+        Me.ScreenBack.BackColor = System.Drawing.Color.Black
+        Me.ScreenBack.Location = New System.Drawing.Point(12, 26)
+        Me.ScreenBack.Name = "ScreenBack"
+        Me.ScreenBack.Size = New System.Drawing.Size(128, 45)
+        Me.ScreenBack.TabIndex = 10
         '
         'MillisecondsS
         '
@@ -148,27 +148,27 @@ Partial Class CDPlayer
         '
         Me.Timer1.Enabled = True
         '
-        'Label4
+        'CDStatus
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Black
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(67, 78)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(145, 13)
-        Me.Label4.TabIndex = 15
-        Me.Label4.Text = "CD Status: Please Insert CD"
+        Me.CDStatus.AutoSize = True
+        Me.CDStatus.BackColor = System.Drawing.Color.Black
+        Me.CDStatus.ForeColor = System.Drawing.Color.White
+        Me.CDStatus.Location = New System.Drawing.Point(67, 78)
+        Me.CDStatus.Name = "CDStatus"
+        Me.CDStatus.Size = New System.Drawing.Size(145, 13)
+        Me.CDStatus.TabIndex = 15
+        Me.CDStatus.Text = "CD Status: Please Insert CD"
         '
-        'Button5
+        'CompactButton
         '
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(146, 0)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(126, 23)
-        Me.Button5.TabIndex = 17
-        Me.Button5.Text = "Compact Player"
-        Me.ToolTip1.SetToolTip(Me.Button5, "Widget" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Change the player to a small widget that can be quickly restored.")
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.CompactButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CompactButton.Location = New System.Drawing.Point(146, 0)
+        Me.CompactButton.Name = "CompactButton"
+        Me.CompactButton.Size = New System.Drawing.Size(126, 23)
+        Me.CompactButton.TabIndex = 17
+        Me.CompactButton.Text = "Compact Player"
+        Me.ToolTip1.SetToolTip(Me.CompactButton, "Widget" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Change the player to a small widget that can be quickly restored.")
+        Me.CompactButton.UseVisualStyleBackColor = True
         '
         'Label7
         '
@@ -227,72 +227,72 @@ Partial Class CDPlayer
         Me.Colon2S.TabIndex = 24
         Me.Colon2S.Text = ":"
         '
-        'Button8
+        'PlayButton
         '
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Image = Global.CD_Player.My.Resources.Resources.Play
-        Me.Button8.Location = New System.Drawing.Point(146, 27)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(76, 23)
-        Me.Button8.TabIndex = 8
-        Me.ToolTip1.SetToolTip(Me.Button8, "Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Plays the current CD.")
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.PlayButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PlayButton.Image = Global.CD_Player.My.Resources.Resources.Play
+        Me.PlayButton.Location = New System.Drawing.Point(146, 27)
+        Me.PlayButton.Name = "PlayButton"
+        Me.PlayButton.Size = New System.Drawing.Size(76, 23)
+        Me.PlayButton.TabIndex = 8
+        Me.ToolTip1.SetToolTip(Me.PlayButton, "Play" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Plays the current CD.")
+        Me.PlayButton.UseVisualStyleBackColor = True
         '
-        'Button6
+        'PTrackButton
         '
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Image = Global.CD_Player.My.Resources.Resources.PreviousTrack
-        Me.Button6.Location = New System.Drawing.Point(146, 49)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(50, 23)
-        Me.Button6.TabIndex = 6
-        Me.ToolTip1.SetToolTip(Me.Button6, "Skip Backward" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Skip back a track on the current CD.")
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.PTrackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PTrackButton.Image = Global.CD_Player.My.Resources.Resources.PreviousTrack
+        Me.PTrackButton.Location = New System.Drawing.Point(146, 49)
+        Me.PTrackButton.Name = "PTrackButton"
+        Me.PTrackButton.Size = New System.Drawing.Size(50, 23)
+        Me.PTrackButton.TabIndex = 6
+        Me.ToolTip1.SetToolTip(Me.PTrackButton, "Skip Backward" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Skip back a track on the current CD.")
+        Me.PTrackButton.UseVisualStyleBackColor = True
         '
-        'Button4
+        'FTrackButton
         '
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Image = Global.CD_Player.My.Resources.Resources.NextTrack
-        Me.Button4.Location = New System.Drawing.Point(195, 49)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(52, 23)
-        Me.Button4.TabIndex = 4
-        Me.ToolTip1.SetToolTip(Me.Button4, "Skip Forward" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Skip forward a track on the current CD.")
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.FTrackButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.FTrackButton.Image = Global.CD_Player.My.Resources.Resources.NextTrack
+        Me.FTrackButton.Location = New System.Drawing.Point(195, 49)
+        Me.FTrackButton.Name = "FTrackButton"
+        Me.FTrackButton.Size = New System.Drawing.Size(52, 23)
+        Me.FTrackButton.TabIndex = 4
+        Me.ToolTip1.SetToolTip(Me.FTrackButton, "Skip Forward" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Skip forward a track on the current CD.")
+        Me.FTrackButton.UseVisualStyleBackColor = True
         '
-        'Button3
+        'EjectButton
         '
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(246, 49)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(26, 23)
-        Me.Button3.TabIndex = 3
-        Me.ToolTip1.SetToolTip(Me.Button3, "Eject" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Opens the CD drive so that you can change the CD.")
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.EjectButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.EjectButton.Image = CType(resources.GetObject("EjectButton.Image"), System.Drawing.Image)
+        Me.EjectButton.Location = New System.Drawing.Point(246, 49)
+        Me.EjectButton.Name = "EjectButton"
+        Me.EjectButton.Size = New System.Drawing.Size(26, 23)
+        Me.EjectButton.TabIndex = 3
+        Me.ToolTip1.SetToolTip(Me.EjectButton, "Eject" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Opens the CD drive so that you can change the CD.")
+        Me.EjectButton.UseVisualStyleBackColor = True
         '
-        'Button2
+        'PauseButton
         '
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Image = Global.CD_Player.My.Resources.Resources.Pause
-        Me.Button2.Location = New System.Drawing.Point(221, 27)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(26, 23)
-        Me.Button2.TabIndex = 2
-        Me.ToolTip1.SetToolTip(Me.Button2, "Pause" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Pauses the current CD.")
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.PauseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PauseButton.Image = Global.CD_Player.My.Resources.Resources.Pause
+        Me.PauseButton.Location = New System.Drawing.Point(221, 27)
+        Me.PauseButton.Name = "PauseButton"
+        Me.PauseButton.Size = New System.Drawing.Size(26, 23)
+        Me.PauseButton.TabIndex = 2
+        Me.ToolTip1.SetToolTip(Me.PauseButton, "Pause" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Pauses the current CD.")
+        Me.PauseButton.UseVisualStyleBackColor = True
         '
-        'Button1
+        'StopButton
         '
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Image = Global.CD_Player.My.Resources.Resources._Stop
-        Me.Button1.Location = New System.Drawing.Point(246, 27)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(26, 23)
-        Me.Button1.TabIndex = 1
-        Me.ToolTip1.SetToolTip(Me.Button1, "Stop" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Stops the CD. When on a track other than 1, you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "can use the stop button" &
+        Me.StopButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.StopButton.Image = Global.CD_Player.My.Resources.Resources._Stop
+        Me.StopButton.Location = New System.Drawing.Point(246, 27)
+        Me.StopButton.Name = "StopButton"
+        Me.StopButton.Size = New System.Drawing.Size(26, 23)
+        Me.StopButton.TabIndex = 1
+        Me.ToolTip1.SetToolTip(Me.StopButton, "Stop" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Stops the CD. When on a track other than 1, you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "can use the stop button" &
         " to restart the CD or click " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "twice to stop the CD fully.")
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.StopButton.UseVisualStyleBackColor = True
         '
         'CDPlayer
         '
@@ -303,20 +303,20 @@ Partial Class CDPlayer
         Me.Controls.Add(Me.Colon1S)
         Me.Controls.Add(Me.MinutesS)
         Me.Controls.Add(Me.SecondsS)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.CompactButton)
+        Me.Controls.Add(Me.CDStatus)
         Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.MillisecondsS)
         Me.Controls.Add(Me.TrackS)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.PlayButton)
+        Me.Controls.Add(Me.PTrackButton)
+        Me.Controls.Add(Me.FTrackButton)
+        Me.Controls.Add(Me.EjectButton)
+        Me.Controls.Add(Me.PauseButton)
+        Me.Controls.Add(Me.StopButton)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.ScreenBack)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -337,20 +337,20 @@ Partial Class CDPlayer
     Friend WithEvents OptionsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutCDPlayer20ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents Button8 As System.Windows.Forms.Button
+    Friend WithEvents StopButton As System.Windows.Forms.Button
+    Friend WithEvents PauseButton As System.Windows.Forms.Button
+    Friend WithEvents EjectButton As System.Windows.Forms.Button
+    Friend WithEvents FTrackButton As System.Windows.Forms.Button
+    Friend WithEvents PTrackButton As System.Windows.Forms.Button
+    Friend WithEvents PlayButton As System.Windows.Forms.Button
     Friend WithEvents TrackS As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents ScreenBack As System.Windows.Forms.Label
     Friend WithEvents MillisecondsS As System.Windows.Forms.Label
     Friend WithEvents NumericUpDown1 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents CDStatus As System.Windows.Forms.Label
     Friend WithEvents PreferencesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents CompactButton As System.Windows.Forms.Button
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents SecondsS As System.Windows.Forms.Label
     Friend WithEvents MinutesS As System.Windows.Forms.Label
