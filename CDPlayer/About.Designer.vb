@@ -44,9 +44,9 @@ Partial Class About
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(16, 53)
+        Me.Label2.Location = New System.Drawing.Point(15, 53)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(294, 156)
+        Me.Label2.Size = New System.Drawing.Size(297, 156)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = resources.GetString("Label2.Text")
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
