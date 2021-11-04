@@ -82,10 +82,20 @@
 
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FTrackButton.Click
         NumericUpDown1.UpButton()
+        retVal = mciSendString("play cd", vbNullString, 0, 0) 'Tell the system to play the CD.
+        CDStatus.Text = "CD Status: Playing"
+        Form1_Load(Nothing, Nothing)
+        Timer2.Start()
+        Timer2.Start()
     End Sub
 
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PTrackButton.Click
         NumericUpDown1.DownButton()
+        retVal = mciSendString("play cd", vbNullString, 0, 0) 'Tell the system to play the CD.
+        CDStatus.Text = "CD Status: Playing"
+        Form1_Load(Nothing, Nothing)
+        Timer2.Start()
+        Timer2.Start()
     End Sub
 
     Private Sub NumericUpDown1_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NumericUpDown1.ValueChanged
