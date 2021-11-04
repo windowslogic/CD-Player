@@ -27,21 +27,19 @@ J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CDPlayer.vbprojResolveAssembly
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\Interop.WMPLib.dll
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\AxInterop.WMPLib.dll
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CDPlayer.vbproj.ResolveComReference.cache
-J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\WLP Media Player.exe
-J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\WLP Media Player.xml
-J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\WLP Media Player.pdb
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.About.resources
-J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.Chooser.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.CDPlayer.resources
-J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.MediaPlayer.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.Resources.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.Prefs.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.Restore.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.UpdateLog.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CDPlayer.vbproj.GenerateResource.Cache
-J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\WLP Media Player.exe.config
-J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\WLP Media Player.exe
-J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\WLP Media Player.pdb
-J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\WLP Media Player.xml
 J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\Interop.WMPLib.dll
 J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\AxInterop.WMPLib.dll
+J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\CD Player.exe.config
+J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\CD Player.exe
+J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\CD Player.pdb
+J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\CD Player.xml
+J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD Player.exe
+J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD Player.xml
+J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD Player.pdb

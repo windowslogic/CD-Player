@@ -83,14 +83,15 @@ Partial Class CDPlayer
         '
         Me.OptionsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PreferencesToolStripMenuItem})
         Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
-        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
-        Me.OptionsToolStripMenuItem.Text = "Options"
+        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
+        Me.OptionsToolStripMenuItem.Text = "Edit"
         '
         'PreferencesToolStripMenuItem
         '
         Me.PreferencesToolStripMenuItem.Name = "PreferencesToolStripMenuItem"
+        Me.PreferencesToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
         Me.PreferencesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.PreferencesToolStripMenuItem.Text = "Preferences"
+        Me.PreferencesToolStripMenuItem.Text = "Settings"
         '
         'HelpToolStripMenuItem
         '

@@ -174,7 +174,7 @@ Partial Class Prefs
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Prefs"
-        Me.Text = "Preferences"
+        Me.Text = "Settings"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
