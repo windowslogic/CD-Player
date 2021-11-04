@@ -144,12 +144,6 @@
     <Compile Include="Prefs.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Restore.Designer.vb">
-      <DependentUpon>Restore.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Restore.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="UpdateLog.Designer.vb">
       <DependentUpon>UpdateLog.vb</DependentUpon>
     </Compile>
@@ -172,9 +166,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Prefs.resx">
       <DependentUpon>Prefs.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Restore.resx">
-      <DependentUpon>Restore.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateLog.resx">
       <DependentUpon>UpdateLog.vb</DependentUpon>

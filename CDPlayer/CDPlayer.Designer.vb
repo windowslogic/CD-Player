@@ -37,7 +37,6 @@ Partial Class CDPlayer
         Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.CDStatus = New System.Windows.Forms.Label()
-        Me.CompactButton = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.SecondsS = New System.Windows.Forms.Label()
         Me.MinutesS = New System.Windows.Forms.Label()
@@ -76,7 +75,7 @@ Partial Class CDPlayer
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'OptionsToolStripMenuItem
@@ -159,17 +158,6 @@ Partial Class CDPlayer
         Me.CDStatus.Size = New System.Drawing.Size(145, 13)
         Me.CDStatus.TabIndex = 15
         Me.CDStatus.Text = "CD Status: Please Insert CD"
-        '
-        'CompactButton
-        '
-        Me.CompactButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.CompactButton.Location = New System.Drawing.Point(159, -1)
-        Me.CompactButton.Name = "CompactButton"
-        Me.CompactButton.Size = New System.Drawing.Size(126, 23)
-        Me.CompactButton.TabIndex = 1
-        Me.CompactButton.Text = "Compact Player"
-        Me.ToolTip1.SetToolTip(Me.CompactButton, "Widget" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Change the player to a small widget that can be quickly restored.")
-        Me.CompactButton.UseVisualStyleBackColor = True
         '
         'Label7
         '
@@ -298,7 +286,6 @@ Partial Class CDPlayer
         Me.Controls.Add(Me.Colon1S)
         Me.Controls.Add(Me.MinutesS)
         Me.Controls.Add(Me.SecondsS)
-        Me.Controls.Add(Me.CompactButton)
         Me.Controls.Add(Me.CDStatus)
         Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.MillisecondsS)
@@ -345,7 +332,6 @@ Partial Class CDPlayer
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents CDStatus As System.Windows.Forms.Label
     Friend WithEvents PreferencesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CompactButton As System.Windows.Forms.Button
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents SecondsS As System.Windows.Forms.Label
     Friend WithEvents MinutesS As System.Windows.Forms.Label
