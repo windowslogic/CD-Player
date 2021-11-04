@@ -44,7 +44,7 @@
         My.Settings.Font = 2
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OKButton.Click
         If CheckBox2.Checked = True Then
             My.Settings.Save()
             Me.Close()

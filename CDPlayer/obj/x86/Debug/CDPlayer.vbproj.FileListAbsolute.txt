@@ -31,7 +31,6 @@ J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.About.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.CDPlayer.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.Resources.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.Prefs.resources
-J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.Restore.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CD_Player.UpdateLog.resources
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Debug\CDPlayer.vbproj.GenerateResource.Cache
 J:\Documents\Git\CD-Player\CDPlayer\bin\Debug\Interop.WMPLib.dll
