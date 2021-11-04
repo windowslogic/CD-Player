@@ -23,6 +23,7 @@
         currentTrack = CInt(Val(buf2)) 'This Will get the Current Track (Convert it Into 1 2 3 4...)
         TrackS.Text = "[" & currentTrack & "/" & trackCount & "]"
         NumericUpDown1.Maximum = trackCount + 1
+        Timer2.Stop()
 
         'Settings
         If My.Settings.Font = 1 Then
@@ -45,9 +46,10 @@
         CDStatus.Text = "CD Status: Playing"
         Form1_Load(Nothing, Nothing)
         Timer2.Start()
+        Timer2.Start()
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles StopButton.Click
+    Public Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles StopButton.Click
         retVal = mciSendString("stop cd", vbNullString, 0, 0) 'Tell the system to stop the CD.
         Timer2.Stop()
         MillisecondsS.Text = "00"
@@ -72,7 +74,6 @@
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles EjectButton.Click
         'Opens the CD/DVD drive door.
         retVal = mciSendString("set cd door open", vbNullString, 0, 0)
-        Timer2.Stop()
         MillisecondsS.Text = "00"
         SecondsS.Text = "00"
         MinutesS.Text = "00"
@@ -296,7 +297,7 @@
         Form1_Load(Nothing, Nothing)
         retVal = mciSendString("set cd time format tmsf", vbNullString, 0, 0) 'Sets it into 1 2 3 4...
         retVal = mciSendString("seek cd to " & NumericUpDown1.Value, vbNullString, 0, 0) 'Seeks CD to track number inputed.
-        If retVal = mciSendString("play cd", vbNullString, 0, 0) Then 'Tell the system to play the CD.
+        If retVal = mciSendString("pause cd", vbNullString, 0, 0) Then 'Tell the system to play the CD.
             CDStatus.Text = "CD Status: Awaiting Input"
         End If
     End Sub
