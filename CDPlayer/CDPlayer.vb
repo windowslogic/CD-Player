@@ -2,8 +2,8 @@
 
     Private Declare Function mciSendString Lib "winmm.dll" Alias "mciSendStringA" (ByVal lpstrCommand As String, ByVal lpstrReturnString As String, ByVal uReturnLength As Integer, ByVal hwndCallback As Integer) As Integer
     'Drives.
-    Dim Edrive As String = "E:\" 'Some CD/DVD drives have E as the letter.
-    Dim Ddrive As String = "D:\" 'D is the default CD/DVD drive letter.
+    Dim Edrive As String = "E:\" 'Some CD/DVD/BR drives have E as the letter.
+    Dim Ddrive As String = "D:\" 'D is the default CD/DVD/BR drive letter.
     'Other things.
     Dim retVal As Integer
     Dim buf As String = Space(128)

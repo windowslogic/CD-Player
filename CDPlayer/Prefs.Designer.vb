@@ -64,9 +64,10 @@ Partial Class Prefs
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.CheckBox3.Location = New System.Drawing.Point(6, 21)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(98, 17)
+        Me.CheckBox3.Size = New System.Drawing.Size(104, 18)
         Me.CheckBox3.TabIndex = 4
         Me.CheckBox3.Text = "Show tooltips"
         Me.CheckBox3.UseVisualStyleBackColor = True
@@ -85,9 +86,10 @@ Partial Class Prefs
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.RadioButton2.Location = New System.Drawing.Point(6, 67)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(78, 17)
+        Me.RadioButton2.Size = New System.Drawing.Size(84, 18)
         Me.RadioButton2.TabIndex = 8
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Large font"
@@ -96,9 +98,10 @@ Partial Class Prefs
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.RadioButton1.Location = New System.Drawing.Point(6, 44)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(77, 17)
+        Me.RadioButton1.Size = New System.Drawing.Size(83, 18)
         Me.RadioButton1.TabIndex = 7
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Small font"
