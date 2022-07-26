@@ -37,7 +37,6 @@ Partial Class CDPlayer
         Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.CDStatus = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.SecondsS = New System.Windows.Forms.Label()
         Me.MinutesS = New System.Windows.Forms.Label()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
@@ -109,10 +108,11 @@ Partial Class CDPlayer
         '
         Me.TrackS.AutoSize = True
         Me.TrackS.BackColor = System.Drawing.Color.Black
-        Me.TrackS.ForeColor = System.Drawing.Color.Lime
+        Me.TrackS.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TrackS.ForeColor = System.Drawing.Color.OliveDrab
         Me.TrackS.Location = New System.Drawing.Point(50, 29)
         Me.TrackS.Name = "TrackS"
-        Me.TrackS.Size = New System.Drawing.Size(41, 13)
+        Me.TrackS.Size = New System.Drawing.Size(44, 13)
         Me.TrackS.TabIndex = 9
         Me.TrackS.Text = "[00/00]"
         '
@@ -128,7 +128,8 @@ Partial Class CDPlayer
         '
         Me.MillisecondsS.AutoSize = True
         Me.MillisecondsS.BackColor = System.Drawing.Color.Black
-        Me.MillisecondsS.ForeColor = System.Drawing.Color.Lime
+        Me.MillisecondsS.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MillisecondsS.ForeColor = System.Drawing.Color.OliveDrab
         Me.MillisecondsS.Location = New System.Drawing.Point(111, 50)
         Me.MillisecondsS.Name = "MillisecondsS"
         Me.MillisecondsS.Size = New System.Drawing.Size(19, 13)
@@ -137,7 +138,8 @@ Partial Class CDPlayer
         '
         'NumericUpDown1
         '
-        Me.NumericUpDown1.Location = New System.Drawing.Point(55, 74)
+        Me.NumericUpDown1.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.NumericUpDown1.Location = New System.Drawing.Point(15, 74)
         Me.NumericUpDown1.Name = "NumericUpDown1"
         Me.NumericUpDown1.Size = New System.Drawing.Size(167, 22)
         Me.NumericUpDown1.TabIndex = 14
@@ -151,27 +153,20 @@ Partial Class CDPlayer
         'CDStatus
         '
         Me.CDStatus.AutoSize = True
-        Me.CDStatus.BackColor = System.Drawing.Color.Black
-        Me.CDStatus.ForeColor = System.Drawing.Color.White
-        Me.CDStatus.Location = New System.Drawing.Point(67, 78)
+        Me.CDStatus.BackColor = System.Drawing.Color.Transparent
+        Me.CDStatus.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.CDStatus.Location = New System.Drawing.Point(12, 78)
         Me.CDStatus.Name = "CDStatus"
         Me.CDStatus.Size = New System.Drawing.Size(145, 13)
         Me.CDStatus.TabIndex = 15
         Me.CDStatus.Text = "CD Status: Please Insert CD"
         '
-        'Label7
-        '
-        Me.Label7.BackColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(67, 76)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(145, 18)
-        Me.Label7.TabIndex = 19
-        '
         'SecondsS
         '
         Me.SecondsS.AutoSize = True
         Me.SecondsS.BackColor = System.Drawing.Color.Black
-        Me.SecondsS.ForeColor = System.Drawing.Color.Lime
+        Me.SecondsS.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SecondsS.ForeColor = System.Drawing.Color.OliveDrab
         Me.SecondsS.Location = New System.Drawing.Point(64, 50)
         Me.SecondsS.Name = "SecondsS"
         Me.SecondsS.Size = New System.Drawing.Size(19, 13)
@@ -182,7 +177,8 @@ Partial Class CDPlayer
         '
         Me.MinutesS.AutoSize = True
         Me.MinutesS.BackColor = System.Drawing.Color.Black
-        Me.MinutesS.ForeColor = System.Drawing.Color.Lime
+        Me.MinutesS.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MinutesS.ForeColor = System.Drawing.Color.OliveDrab
         Me.MinutesS.Location = New System.Drawing.Point(19, 50)
         Me.MinutesS.Name = "MinutesS"
         Me.MinutesS.Size = New System.Drawing.Size(19, 13)
@@ -198,7 +194,8 @@ Partial Class CDPlayer
         '
         Me.Colon1S.AutoSize = True
         Me.Colon1S.BackColor = System.Drawing.Color.Black
-        Me.Colon1S.ForeColor = System.Drawing.Color.Lime
+        Me.Colon1S.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Colon1S.ForeColor = System.Drawing.Color.OliveDrab
         Me.Colon1S.Location = New System.Drawing.Point(44, 50)
         Me.Colon1S.Name = "Colon1S"
         Me.Colon1S.Size = New System.Drawing.Size(10, 13)
@@ -209,7 +206,8 @@ Partial Class CDPlayer
         '
         Me.Colon2S.AutoSize = True
         Me.Colon2S.BackColor = System.Drawing.Color.Black
-        Me.Colon2S.ForeColor = System.Drawing.Color.Lime
+        Me.Colon2S.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Colon2S.ForeColor = System.Drawing.Color.OliveDrab
         Me.Colon2S.Location = New System.Drawing.Point(94, 50)
         Me.Colon2S.Name = "Colon2S"
         Me.Colon2S.Size = New System.Drawing.Size(10, 13)
@@ -273,8 +271,7 @@ Partial Class CDPlayer
         Me.StopButton.Name = "StopButton"
         Me.StopButton.Size = New System.Drawing.Size(26, 23)
         Me.StopButton.TabIndex = 4
-        Me.ToolTip1.SetToolTip(Me.StopButton, "Stop" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Stops the CD. When on a track other than 1, you " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "can use the stop button" &
-        " to restart the CD or click " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "twice to stop the CD fully.")
+        Me.ToolTip1.SetToolTip(Me.StopButton, "Stop" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Stops the CD.")
         Me.StopButton.UseVisualStyleBackColor = True
         '
         'CDPlayer
@@ -297,7 +294,6 @@ Partial Class CDPlayer
         Me.Controls.Add(Me.PauseButton)
         Me.Controls.Add(Me.StopButton)
         Me.Controls.Add(Me.MenuStrip1)
-        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.ScreenBack)
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -332,7 +328,6 @@ Partial Class CDPlayer
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents CDStatus As System.Windows.Forms.Label
     Friend WithEvents PreferencesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents SecondsS As System.Windows.Forms.Label
     Friend WithEvents MinutesS As System.Windows.Forms.Label
     Friend WithEvents Timer2 As System.Windows.Forms.Timer

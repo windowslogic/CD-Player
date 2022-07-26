@@ -53,7 +53,7 @@ Partial Class Prefs
         Me.CheckBox2.AutoSize = True
         Me.CheckBox2.Checked = True
         Me.CheckBox2.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CheckBox2.Location = New System.Drawing.Point(11, 192)
+        Me.CheckBox2.Location = New System.Drawing.Point(12, 166)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(93, 17)
         Me.CheckBox2.TabIndex = 3

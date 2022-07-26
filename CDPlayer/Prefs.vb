@@ -1,8 +1,8 @@
 ﻿Public Class Prefs
 
     Private Sub RadioButton1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton1.CheckedChanged
-        Dim f As Font = New Font(Font.FontFamily, 8.0F, FontStyle.Regular)
-        Dim c As Color = Color.Lime
+        Dim f As Font = New Font(Font.FontFamily, 8.0F, FontStyle.Bold)
+        Dim c As Color = Color.OliveDrab
         Label2.Show()
         Label3.Show()
         Label4.Hide()
@@ -23,8 +23,8 @@
     End Sub
 
     Private Sub RadioButton2_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton2.CheckedChanged
-        Dim f As Font = New Font(Font.FontFamily, 12.0F, FontStyle.Regular)
-        Dim c As Color = Color.Lime
+        Dim f As Font = New Font(Font.FontFamily, 12.0F, FontStyle.Bold)
+        Dim c As Color = Color.OliveDrab
         Label2.Hide()
         Label3.Hide()
         Label4.Show()
