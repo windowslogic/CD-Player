@@ -11,4 +11,10 @@
     Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
         Process.Start("https://www.github.com/windowslogic/cd-player")
     End Sub
+
+    Private Sub About_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Load version number and licence.
+        Variables.ParseVariables(VerInfo)
+        Variables.ParseVariables(Copyright)
+    End Sub
 End Class

@@ -16,3 +16,22 @@ J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Release\CDPlayer.vbproj.GenerateReso
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Release\CD Player.exe
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Release\CD Player.xml
 J:\Documents\Git\CD-Player\CDPlayer\obj\x86\Release\CD Player.pdb
+J:\Projects\CD-Player\CDPlayer\bin\Release\CD Player.exe.config
+J:\Projects\CD-Player\CDPlayer\bin\Release\CD Player.exe
+J:\Projects\CD-Player\CDPlayer\bin\Release\CD Player.pdb
+J:\Projects\CD-Player\CDPlayer\bin\Release\CD Player.xml
+J:\Projects\CD-Player\CDPlayer\bin\Release\Interop.WMPLib.dll
+J:\Projects\CD-Player\CDPlayer\bin\Release\AxInterop.WMPLib.dll
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CDPlayer.vbprojResolveAssemblyReference.cache
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\Interop.WMPLib.dll
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\AxInterop.WMPLib.dll
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CDPlayer.vbproj.ResolveComReference.cache
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CD_Player.About.resources
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CD_Player.CDPlayer.resources
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CD_Player.Resources.resources
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CD_Player.Prefs.resources
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CD_Player.UpdateLog.resources
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CDPlayer.vbproj.GenerateResource.Cache
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CD Player.exe
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CD Player.xml
+J:\Projects\CD-Player\CDPlayer\obj\x86\Release\CD Player.pdb
