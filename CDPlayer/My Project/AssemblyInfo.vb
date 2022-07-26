@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Play compact discs on your computer.")>
 <Assembly: AssemblyCompany("WindowsLogic Productions")>
 <Assembly: AssemblyProduct("CD Player")>
-<Assembly: AssemblyCopyright("Copyright © 2015 - 2021 WindowsLogic Productions")>
+<Assembly: AssemblyCopyright("Copyright © 2015 - 2022 WindowsLogic Productions")>
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("3.1.0.0")>
-<Assembly: AssemblyFileVersion("3.1.0.0")>
+<Assembly: AssemblyVersion("3.1.1.0")>
+<Assembly: AssemblyFileVersion("3.1.1.0")>
