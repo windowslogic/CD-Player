@@ -26,11 +26,8 @@ Partial Class CDPlayer
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CDPlayer))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.DiscToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PreferencesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutCDPlayer20ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TrackS = New System.Windows.Forms.Label()
         Me.ScreenBack = New System.Windows.Forms.Label()
         Me.MillisecondsS = New System.Windows.Forms.Label()
@@ -49,6 +46,9 @@ Partial Class CDPlayer
         Me.EjectButton = New System.Windows.Forms.Button()
         Me.PauseButton = New System.Windows.Forms.Button()
         Me.StopButton = New System.Windows.Forms.Button()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PreferencesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutCDPlayer20ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -70,13 +70,6 @@ Partial Class CDPlayer
         Me.DiscToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.DiscToolStripMenuItem.Text = "File"
         '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(134, 22)
-        Me.ExitToolStripMenuItem.Text = "Exit"
-        '
         'OptionsToolStripMenuItem
         '
         Me.OptionsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PreferencesToolStripMenuItem})
@@ -84,25 +77,12 @@ Partial Class CDPlayer
         Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
         Me.OptionsToolStripMenuItem.Text = "Edit"
         '
-        'PreferencesToolStripMenuItem
-        '
-        Me.PreferencesToolStripMenuItem.Name = "PreferencesToolStripMenuItem"
-        Me.PreferencesToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
-        Me.PreferencesToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.PreferencesToolStripMenuItem.Text = "Settings"
-        '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutCDPlayer20ToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
         Me.HelpToolStripMenuItem.Text = "Help"
-        '
-        'AboutCDPlayer20ToolStripMenuItem
-        '
-        Me.AboutCDPlayer20ToolStripMenuItem.Name = "AboutCDPlayer20ToolStripMenuItem"
-        Me.AboutCDPlayer20ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.AboutCDPlayer20ToolStripMenuItem.Text = "About"
         '
         'TrackS
         '
@@ -273,6 +253,33 @@ Partial Class CDPlayer
         Me.StopButton.TabIndex = 4
         Me.ToolTip1.SetToolTip(Me.StopButton, "Stop" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Stops the CD.")
         Me.StopButton.UseVisualStyleBackColor = True
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Image = Global.CD_Player.My.Resources.Resources._Exit
+        Me.ExitToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.F4), System.Windows.Forms.Keys)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
+        'PreferencesToolStripMenuItem
+        '
+        Me.PreferencesToolStripMenuItem.Image = Global.CD_Player.My.Resources.Resources.Settings
+        Me.PreferencesToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.PreferencesToolStripMenuItem.Name = "PreferencesToolStripMenuItem"
+        Me.PreferencesToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
+        Me.PreferencesToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
+        Me.PreferencesToolStripMenuItem.Text = "Settings"
+        '
+        'AboutCDPlayer20ToolStripMenuItem
+        '
+        Me.AboutCDPlayer20ToolStripMenuItem.Image = Global.CD_Player.My.Resources.Resources.Information
+        Me.AboutCDPlayer20ToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.AboutCDPlayer20ToolStripMenuItem.Name = "AboutCDPlayer20ToolStripMenuItem"
+        Me.AboutCDPlayer20ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
+        Me.AboutCDPlayer20ToolStripMenuItem.Size = New System.Drawing.Size(168, 38)
+        Me.AboutCDPlayer20ToolStripMenuItem.Text = "About"
         '
         'CDPlayer
         '

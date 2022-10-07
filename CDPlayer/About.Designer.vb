@@ -25,7 +25,6 @@ Partial Class About
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(About))
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
-        Me.MoreButton = New System.Windows.Forms.Button()
         Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
         Me.Copyright = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -55,17 +54,6 @@ Partial Class About
         Me.LinkLabel2.TabIndex = 6
         Me.LinkLabel2.TabStop = True
         Me.LinkLabel2.Text = "Contribute on GitHub"
-        '
-        'MoreButton
-        '
-        Me.MoreButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.MoreButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.MoreButton.Location = New System.Drawing.Point(360, 138)
-        Me.MoreButton.Name = "MoreButton"
-        Me.MoreButton.Size = New System.Drawing.Size(75, 23)
-        Me.MoreButton.TabIndex = 8
-        Me.MoreButton.Text = "More..."
-        Me.MoreButton.UseVisualStyleBackColor = True
         '
         'LinkLabel3
         '
@@ -130,7 +118,7 @@ Partial Class About
         '
         Me.OKButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.OKButton.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.OKButton.Location = New System.Drawing.Point(279, 138)
+        Me.OKButton.Location = New System.Drawing.Point(360, 138)
         Me.OKButton.Name = "OKButton"
         Me.OKButton.Size = New System.Drawing.Size(75, 23)
         Me.OKButton.TabIndex = 7
@@ -142,7 +130,6 @@ Partial Class About
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(447, 173)
-        Me.Controls.Add(Me.MoreButton)
         Me.Controls.Add(Me.LinkLabel3)
         Me.Controls.Add(Me.Copyright)
         Me.Controls.Add(Me.Panel1)
@@ -167,7 +154,6 @@ Partial Class About
     End Sub
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents LinkLabel2 As LinkLabel
-    Friend WithEvents MoreButton As Button
     Friend WithEvents LinkLabel3 As LinkLabel
     Friend WithEvents Copyright As Label
     Friend WithEvents Panel1 As Panel

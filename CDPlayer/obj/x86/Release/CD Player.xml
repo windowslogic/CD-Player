@@ -22,6 +22,11 @@ CD Player
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:CD_Player.My.Resources.Resources._Exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CD_Player.My.Resources.Resources._Stop">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -33,6 +38,11 @@ CD Player
 </summary>
 </member>
 <member name="P:CD_Player.My.Resources.Resources.Eject">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources.Information">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -58,6 +68,11 @@ CD Player
 </summary>
 </member>
 <member name="P:CD_Player.My.Resources.Resources.PreviousTrack">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CD_Player.My.Resources.Resources.Settings">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

@@ -17,4 +17,8 @@
         Variables.ParseVariables(VerInfo)
         Variables.ParseVariables(Copyright)
     End Sub
+
+    Private Sub LinkLabel3_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel3.LinkClicked
+        Process.Start("https://windowslogic.co.uk/appagreement.php")
+    End Sub
 End Class
